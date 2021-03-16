@@ -1,95 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1,
-  maximum-scale=5"
-    />
-
-    <link rel="icon" href="devchallenges.png" />
-
-    <link
-      rel="shortcut icon"
-      type="image/x-icon"
-      href="https://devchallenges.io/"
-    />
-
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap"
-      rel="stylesheet"
-    />
-
-    <title>Devchallenges</title>
-
-    <style>
-      body {
-        font-family: "Poppins", sans-serif;
-      }
-
-      ul {
-        padding-left: 24px;
-      }
-
-      li {
-        margin-bottom: 8px;
-      }
-
-      .welcome {
-        max-width: 800px;
-        margin: 0 auto;
-      }
-
-      .welcome-text {
-        margin-top: 30vh;
-        font-weight: 500;
-      }
-
-      .welcome-text p {
-        font-size: 1rem;
-        font-weight: 400;
-      }
-
-      .welcome-text h1 {
-        font-size: 1.5rem;
-      }
-
-      .welcome-text a {
-        color: #f7542e;
-      }
-    </style>
-  </head>
-  <body>
-    <div class="welcome">
-      <div class="welcome-text">
-        <h1>
-          Welcome to
-          <a href="https://devchallenges.io/" target="_blank"
-            >devchallenges.io</a
-          >
-        </h1>
-
-        <p>
-          If you have any questions, don't hesitate to ask on Discord. Here are
-          7 general steps to complete the challenge:
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Omar's third project on devchallenge.io">
+  <meta name="keywords" content="html, css, flex, bem, responsive">
+  <meta name="author" content="Omar Insurriaga">
+  <title>Interior consultant</title>
+  <link rel="stylesheet" href="./styles.css">
+  <!--Google material icons-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+  <div class="page">
+    <!--Header section with title and description-->
+    <header class="header">
+      <h1 class="header__title">THIS INTERIOR</h1>
+      <ul class="nav">
+        <li>
+          <a href="#" class="nav__link nav__link_active">Home</a>
+        </li>
+        <li>
+          <a href="#" class="nav__link">Collection</a>
+        </li>
+        <li>
+          <a href="#" class="nav__link">About</a>
+        </li>
+        <li>
+          <a href="#" class="nav__link">Contact</a>
+        </li>
+      </ul>  
+    </header>
+    <!--main container for the content-->
+    <main class="content">
+      <!--Section containing the description for the image-->
+      <section class="content__description">
+        <h2 class="content__description-heading">Modern interior</h2>
+        <p class="content__description-text">
+          A full-Service residential & commercial interior design 
+          and staging company offering professional organizing &<br>
+          eco-services.
         </p>
-      </div>
-
-      <ul>
-        <li><b>Step 1:</b> Create a new repository on github</li>
-        <li><b>Step 2:</b> Copy resources, README.md to your repository</li>
-        <li>
-          <b>Step 3:</b> Login to Figma to checkout font, color, spacing,..
-        </li>
-        <li><b>Step 4:</b> Complete all user stories</li>
-        <li><b>Step 5:</b> Update README.md</li>
-        <li><b>Step 6:</b> Deploy your app and submit your solution</li>
-        <li>
-          <b>Step 7:</b> Share your solution on Discord, Twitter and other
-          platforms to ask for feedback
-        </li>
-      </ul>
+        <div class="content__action">
+          <h2 class="content__action-text">Read more</h2>
+          <!--this class is taken from material icons sylesheet-->
+          <i class="material-icons">trending_flat</i>
+        </div>
+      </section>
+      <img src="./photo1.png" alt="interior pic" class="content__img">
+    </main>
+    <div class="content__card">
+      <section class="content__card-content">
+        <img src="./photo2.png" alt="card pic" class="content__card-img">
+        <div class="content__card-contact">
+          <h2 class="content__card-name">Aliza Webber</h2>
+          <h2 class="content__card-title">Interior designer</h2>
+        </div>
+      </section>
+        <p class="content__card-caption">Designed in 2020 by Aliza Webber</p>
     </div>
-  </body>
+    <footer class="footer">
+      created by <span>oinsur</span> - devChallenges.io
+    </footer>
+  </div>
+</body>
 </html>
