@@ -8,7 +8,7 @@
 
 <div align="center">
   <h3>
-    <a href="https://oinsur.github.io/interior-consultant-page/index.html">
+    <a href="https://oinsur.github.io/interior-consultant-page/">
       Demo
     </a>
     <span> | </span>
@@ -40,7 +40,7 @@
 
 This is the third project in the responsive web developer path for devchallenges.io
 
-The demo solution I did can be found at https://oinsur.github.io/interior-consultant-page/index.html
+The demo solution I did can be found at https://oinsur.github.io/interior-consultant-page/
 
 I was able to get the layout to work by creating another html page for the menu at the mobile size. I was pleased with my result.
 I learned how to use material icons in my layouts. I thought that this was very helpful. I had used icons previously but just as svg files.
